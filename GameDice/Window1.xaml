@@ -1,0 +1,27 @@
+﻿<Window x:Class="GameDice.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="ZC Dice" Height="172" Width="200" Background="Black" Foreground="Yellow" Icon="ZCDice.ico">
+    <StackPanel Orientation="Vertical">
+        <StackPanel Height="24" Orientation="Horizontal" Margin="1">
+            <TextBlock Width="96" VerticalAlignment="Center" Margin="3,0,0,0">Number of Dice:</TextBlock>
+            <TextBox Name="txtNumDice" Width="54">1</TextBox>
+        </StackPanel>
+        <StackPanel Height="24" Orientation="Horizontal" Margin="1">
+        <TextBlock Width="96" VerticalAlignment="Center" Margin="3,0,0,0">Sides:</TextBlock>
+        <TextBox Name="txtNumSides" Width="54">6</TextBox>
+    </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="1">
+            <Button Name="btnRoll" Click="btnRoll_Click" Width="156" Margin="1">Roll</Button>
+            <Button Name="btnAbout" Click="btnAbout_Click" Width="20" Margin="1">?</Button>
+        </StackPanel>
+        <StackPanel Height="24" Orientation="Horizontal" Margin="1">
+            <TextBlock HorizontalAlignment="Left" Width="54"  Margin="3,0,0,0" VerticalAlignment="Center">Result:</TextBlock>
+            <TextBlock Name="txtResult" VerticalAlignment="Center"></TextBlock>
+        </StackPanel>
+        <StackPanel Height="24" Orientation="Horizontal" Margin="1">
+            <TextBlock Width="54"  Margin="3,0,0,0" VerticalAlignment="Center">Total:</TextBlock>
+            <TextBlock Width="90" VerticalAlignment="Center" Name="txtTotal">0</TextBlock>
+        </StackPanel>
+    </StackPanel>
+</Window>

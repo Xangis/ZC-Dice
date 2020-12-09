@@ -1,7 +1,7 @@
 ﻿<Window x:Class="GameDice.Window1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="ZC Dice" Height="172" Width="200" Background="Black" Foreground="Yellow" Icon="ZCDice.ico">
+    Title="Lambda Dice" Height="172" Width="200" Background="Black" Foreground="Yellow" Icon="ZCDice.ico">
     <StackPanel Orientation="Vertical">
         <StackPanel Height="24" Orientation="Horizontal" Margin="1">
             <TextBlock Width="96" VerticalAlignment="Center" Margin="3,0,0,0">Number of Dice:</TextBlock>

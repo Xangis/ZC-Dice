@@ -23,8 +23,8 @@ w# Compiled Object files
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
 .vs/
 obj/
+*.pdb

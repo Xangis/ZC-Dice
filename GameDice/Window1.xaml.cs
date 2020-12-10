@@ -50,7 +50,7 @@ namespace GameDice
 
         private void btnAbout_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Lambda Dice is Copyright (c) 2010-2020 Lambda Centauri\nLambda Dice is freeware and may be distributed freely.\nWritten by Jason Champion.\nhttps://lambdacentauri.com");
+            MessageBox.Show("Lambda Dice 1.01 is Copyright (c) 2010-2020 Lambda Centauri\n\nLambda Dice is freeware and may be distributed freely.\n\nWritten by Jason Champion.\n\nhttps://lambdacentauri.com");
         }
     }
 }
